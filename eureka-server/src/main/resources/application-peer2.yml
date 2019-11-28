@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 1112
+
+eureka:
+  instance:
+    hostname: peer2
+    prefer-ip-address: true   # 使用IP地址的形式 定义注册中心的地址
+  client:
+#    register-with-eureka: false
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/
