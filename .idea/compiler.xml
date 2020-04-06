@@ -9,6 +9,7 @@
         <module name="eureka-server" />
         <module name="microservice-simple-provider-user" />
         <module name="Springcloud" />
+        <module name="ribbon-consumer" />
         <module name="hello" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="hello" options="-parameters" />
       <module name="microservice-simple-provider-user" options="-parameters" />
+      <module name="ribbon-consumer" options="-parameters" />
     </option>
   </component>
 </project>
